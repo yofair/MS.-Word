@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Bahan Ajar Interaktif Ms. Word - Kelas XI SMK</title>
+<meta name="description" content="Bahan ajar interaktif Microsoft Word untuk kelas 11 SMK: materi, studi kasus, kuis, dan refleksi.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='18' fill='%232b579a'/%3E%3Ctext x='50' y='72' font-size='64' font-weight='bold' text-anchor='middle' fill='white' font-family='Arial'%3EW%3C/text%3E%3C/svg%3E">
+<style>
+:root{--b:#2b579a;--b2:#3d7bd9;--ok:#157a43;--bad:#b42323;--ink:#1c2433}
+*{box-sizing:border-box}
+body{margin:0;font:16px/1.65 "Segoe UI",system-ui,Roboto,sans-serif;background:#e9eef7;color:var(--ink);min-height:100vh;display:flex;flex-direction:column}
+header{background:var(--b);color:#fff;padding:10px 18px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:6px}
+.logo{display:inline-grid;place-items:center;width:30px;height:30px;background:#fff;color:var(--b);border-radius:6px;font-weight:800;margin-right:10px}
+#prog{height:6px;background:#c5d2ea}#bar{height:100%;background:#f2a31b;transition:width .3s}
+main{flex:1;width:100%;max-width:880px;margin:0 auto;padding:16px 12px}
+.slide{display:none;background:#fff;border-radius:6px;border-top:5px solid var(--b);padding:26px;box-shadow:0 4px 18px #2b579a22}
+.slide.active{display:block;animation:f .25s}
+@keyframes f{from{opacity:0}}
+h1,h2{color:var(--b);margin:.2em 0 .5em;line-height:1.25}h3{margin:.8em 0 .2em}
+label{display:block;font-weight:600;margin-top:12px}
+input[type=text],select,textarea{width:100%;padding:10px;border:2px solid #c3cfe6;border-radius:6px;font:inherit;background:#fff}
+select{margin-top:8px}
+:focus-visible{outline:3px solid #f2a31b;outline-offset:2px}
+input:focus,select:focus,textarea:focus{border-color:var(--b2)}
+details{border:1px solid #d3dcee;border-radius:6px;padding:8px 14px;margin:8px 0;background:#f7f9fd}
+summary{cursor:pointer;font-weight:600;color:var(--b)}
+.btn{background:var(--b);color:#fff;border:0;border-radius:6px;padding:10px 18px;font:inherit;font-weight:600;cursor:pointer}
+.btn:hover{background:var(--b2)}.btn:disabled,.btn.off{background:#9fadc6;cursor:not-allowed}
+.btn.s{background:#fff;color:var(--b);border:2px solid var(--b)}.btn.s:hover{background:#eef3fb}
+nav{display:flex;justify-content:space-between;align-items:center;gap:8px;margin-top:14px;flex-wrap:wrap}
+#msg{color:var(--bad);font-weight:600;min-height:1.5em;flex:1 1 100%;order:3;text-align:center}
+.q{border:1px solid #d3dcee;border-radius:6px;padding:10px 14px;margin:10px 0}
+.q label{font-weight:400;margin:3px 0;cursor:pointer}
+.fb{font-size:.93rem;margin-top:6px;padding:6px 10px;border-radius:6px}
+.fb.ok{background:#e3f5eb;color:var(--ok)}.fb.bad{background:#fdecec;color:var(--bad)}
+table{width:100%;border-collapse:collapse;margin:8px 0}td,th{border:1px solid #c3cfe6;padding:6px 10px;text-align:left;vertical-align:top}th{background:#e8eefa;width:30%}
+kbd{background:#eef2f9;border:1px solid #c3cfe6;border-radius:4px;padding:0 5px;font-size:.9em}
+.score{font-size:2.6rem;font-weight:800;color:var(--b);line-height:1.1}
+.row{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}
+footer{text-align:center;padding:12px;font-size:.85rem;color:#4b566b}
+@media(max-width:600px){.slide{padding:16px}th{width:36%}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+@media print{header,#prog,nav,footer,.noprint{display:none!important}.slide{display:none!important}#s7{display:block!important;box-shadow:none;padding:0}body{background:#fff}}
+</style>
+</head>
+<body>
+<header><div><span class="logo">W</span><b>Ms. Word - Kelas XI SMK</b></div><span id="pg"></span></header>
+<div id="prog"><div id="bar"></div></div>
+<main>
+<section class="slide" id="s0"><h1>Belajar Ms. Word secara Interaktif</h1>
+<p>Selamat datang! Kamu akan mempelajari materi, mengerjakan studi kasus dan kuis, lalu menulis refleksi. Isi identitasmu untuk memulai.</p>
+<label for="nama">Nama lengkap</label><input type="text" id="nama" maxlength="60" autocomplete="name" placeholder="Contoh: Budi Santoso">
+<label for="kelas">Kelas</label><input type="text" id="kelas" maxlength="20" placeholder="Contoh: XI TKJ 1"></section>
+
+<section class="slide" id="s1"><h2>Tujuan Pembelajaran</h2><p>Setelah mempelajari bahan ajar ini, kamu mampu:</p>
+<ol><li>Mengenali bagian antarmuka Ms. Word dan fungsi tab Ribbon.</li><li>Memformat teks dan paragraf sesuai kaidah dokumen resmi.</li><li>Menyisipkan tabel, gambar, header-footer, dan nomor halaman.</li><li>Memilih fitur Word yang tepat untuk menyelesaikan kasus nyata, seperti laporan dan surat massal.</li></ol></section>
+
+<section class="slide" id="s2"><h2>Materi 1: Antarmuka dan Format Teks</h2><p>Klik setiap judul untuk membuka penjelasannya.</p>
+<details open><summary>Antarmuka Ms. Word</summary><p><b>Title Bar</b> menampilkan nama file. <b>Quick Access Toolbar</b> berisi Save, Undo, dan Redo. <b>Ribbon</b> memuat tab Home, Insert, Layout, References, Mailings, Review, dan View. <b>Ruler</b> mengatur margin dan indent, sedangkan <b>Status Bar</b> menampilkan jumlah halaman dan kata.</p></details>
+<details><summary>Format teks (tab Home)</summary><p>Tebal <kbd>Ctrl</kbd>+<kbd>B</kbd>, miring <kbd>Ctrl</kbd>+<kbd>I</kbd>, garis bawah <kbd>Ctrl</kbd>+<kbd>U</kbd>. Dokumen resmi umumnya memakai font Times New Roman atau Arial ukuran 12 pt.</p></details>
+<details><summary>Format paragraf</summary><p>Rata kiri <kbd>Ctrl</kbd>+<kbd>L</kbd>, tengah <kbd>Ctrl</kbd>+<kbd>E</kbd>, kanan <kbd>Ctrl</kbd>+<kbd>R</kbd>, rata kiri-kanan (justify) <kbd>Ctrl</kbd>+<kbd>J</kbd>. Spasi baris yang lazim adalah 1,5 dengan indent baris pertama 1,25 cm.</p></details></section>
+
+<section class="slide" id="s3"><h2>Materi 2: Fitur Dokumen</h2>
+<details open><summary>Tabel dan gambar (tab Insert)</summary><p>Insert › Table untuk membuat tabel, lalu atur dengan Table Design dan Layout. Insert › Pictures untuk gambar; atur posisi lewat Wrap Text.</p></details>
+<details><summary>Header, footer, dan nomor halaman</summary><p>Insert › Header/Footer menampilkan teks yang sama di setiap halaman. Insert › Page Number menambahkan nomor halaman otomatis.</p></details>
+<details><summary>Daftar isi otomatis</summary><p>Beri Heading Style (Heading 1, 2, 3) pada judul bab, lalu pilih References › Table of Contents.</p></details>
+<details><summary>Mail Merge dan Page Setup</summary><p>Tab Mailings › Start Mail Merge menggabungkan satu template surat dengan banyak data penerima. Layout › Margins mengatur batas kertas; margin standar tulisan ilmiah adalah kiri 4 cm, atas, kanan, dan bawah 3 cm pada kertas A4.</p></details></section>
+
+<section class="slide" id="s4"><h2>Studi Kasus</h2>
+<p>Kamu menjadi admin di SMK dan harus menyelesaikan empat tugas dokumen. Pilih fitur Word yang paling tepat untuk tiap tugas, lalu klik <b>Periksa Jawaban</b>.</p>
+<div id="kasus"></div><div class="row"><button class="btn" id="cekK">Periksa Jawaban</button></div></section>
+
+<section class="slide" id="s5"><h2>Kuis Pilihan Ganda</h2><p>Jawab kelima soal, lalu klik <b>Kirim Jawaban</b>. Jawaban tidak dapat diubah setelah dikirim.</p>
+<div id="quiz"></div><div class="row"><button class="btn" id="kirim">Kirim Jawaban</button></div><div id="skor"></div></section>
+
+<section class="slide" id="s6"><h2>Refleksi</h2>
+<label for="ref">Apa yang kamu pelajari, dan bagian mana yang masih sulit? (minimal 20 karakter)</label>
+<textarea id="ref" rows="5" maxlength="800"></textarea>
+<label>Tingkat pemahamanmu sekarang</label>
+<label><input type="radio" name="rate" value="1"> Belum paham</label><label><input type="radio" name="rate" value="2"> Cukup paham</label><label><input type="radio" name="rate" value="3"> Paham</label><label><input type="radio" name="rate" value="4"> Sangat paham</label></section>
+
+<section class="slide" id="s7"><h2>Hasil Respons Siswa</h2><div id="hasil"></div>
+<p style="font-size:.85rem;color:#4b566b">© Yoga Fauzi Irawan, S. Kom., Gr.</p>
+<div class="row noprint"><button class="btn" id="prt">Cetak / Simpan PDF</button><button class="btn s" id="dl">Unduh .txt</button><button class="btn s" id="rst">Hapus Data &amp; Ulang</button></div></section>
+
+<section class="slide" id="s8"><h2>Terima Kasih!</h2>
+<p>Kamu telah menyelesaikan bahan ajar Ms. Word. Terus berlatih membuat dokumen agar semakin terampil.</p>
+<div class="row"><button class="btn" id="home">Kembali ke Slide Pertama</button></div></section>
+
+<nav><button class="btn s" id="prev">Sebelumnya</button><button class="btn" id="next">Berikutnya</button><div id="msg" role="alert"></div></nav>
+</main>
+<footer>&copy; Yoga Fauzi Irawan, S. Kom., Gr.</footer>
+<script>
+const K='wordSMK11_v1',$=id=>document.getElementById(id),esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const D={nama:'',kelas:'',kasus:['','','',''],cek:false,jwb:[-1,-1,-1,-1,-1],selesai:false,tgl:'',ref:'',rate:'',cur:0};
+let S;try{S={...D,...JSON.parse(localStorage.getItem(K)||'{}')}}catch(e){S={...D}}
+const save=()=>{try{localStorage.setItem(K,JSON.stringify(S))}catch(e){}};
+const OPT=['Format Painter','Mail Merge','Header & Footer','Daftar Isi Otomatis'],RT={1:'Belum paham',2:'Cukup paham',3:'Paham',4:'Sangat paham'};
+const KS=[['Laporan PKL setebal 30 halaman harus memiliki daftar isi lengkap dengan nomor halaman yang otomatis.',3,'Pakai Heading Style, lalu References > Table of Contents.'],
+['Format judul bab 1 sudah bagus dan ingin disalin ke judul bab lain dengan cepat.',0,'Format Painter (tab Home) menyalin format tanpa mengetik ulang.'],
+['Sekolah mencetak 50 surat undangan dengan nama dan alamat penerima yang berbeda-beda.',1,'Mail Merge (tab Mailings) menggabungkan template dengan data penerima.'],
+['Nama sekolah dan nomor halaman harus tampil di setiap halaman dokumen.',2,'Header & Footer (tab Insert) tampil berulang di setiap halaman.']];
+const Q=[['Ekstensi default dokumen Word modern adalah ...',['.doc','.docx','.txt','.dotx'],1,'Sejak Word 2007, format default adalah .docx.'],
+['Pintasan keyboard untuk menyimpan dokumen adalah ...',['Ctrl+P','Ctrl+N','Ctrl+S','Ctrl+B'],2,'Ctrl+S = Save. Ctrl+P untuk Print, Ctrl+N dokumen baru, Ctrl+B tebal.'],
+['Tab Ribbon untuk menyisipkan tabel dan gambar adalah ...',['Home','Insert','Layout','View'],1,'Tab Insert berisi Table, Pictures, Shapes, Header & Footer.'],
+['Rata kiri-kanan (justify) dilakukan dengan ...',['Ctrl+L','Ctrl+E','Ctrl+R','Ctrl+J'],3,'Ctrl+J = Justify. L = kiri, E = tengah, R = kanan.'],
+['Pemeriksa ejaan dan tata bahasa terdapat pada tab ...',['Review','References','Mailings','Layout'],0,'Tab Review > Spelling & Grammar.']];
+const skor=()=>S.jwb.filter((a,i)=>a===Q[i][2]).length*20,N=9;
+const OK=[()=>S.nama.trim().length>=3&&S.kelas.trim().length>=2,()=>1,()=>1,()=>1,()=>S.cek&&S.kasus.every(v=>v!==''),()=>S.selesai,()=>S.ref.trim().length>=20&&!!S.rate,()=>1,()=>1];
+const HINT=['Isi nama (minimal 3 huruf) dan kelas terlebih dahulu.','','','','Pilih jawaban untuk keempat tugas, lalu klik Periksa Jawaban.','Jawab kelima soal, lalu klik Kirim Jawaban.','Isi refleksi (minimal 20 karakter) dan pilih tingkat pemahaman.','',''];
+
+$('kasus').innerHTML=KS.map((k,i)=>`<div class="q"><b>${i+1}.</b> ${k[0]}<select data-i="${i}" aria-label="Fitur untuk tugas ${i+1}"><option value="">- pilih fitur -</option>${OPT.map((o,j)=>`<option value="${j}">${o}</option>`).join('')}</select><div class="fb" id="kf${i}" hidden></div></div>`).join('');
+$('quiz').innerHTML=Q.map((q,i)=>`<div class="q"><b>${i+1}. ${q[0]}</b>${q[1].map((o,j)=>`<label><input type="radio" name="q${i}" value="${j}"> ${String.fromCharCode(65+j)}. ${o}</label>`).join('')}<div class="fb" id="qf${i}" hidden></div></div>`).join('');
+
+function sync(){
+ $('nama').value=S.nama;$('kelas').value=S.kelas;$('ref').value=S.ref;
+ document.querySelectorAll('[name=rate]').forEach(r=>r.checked=r.value===S.rate);
+ document.querySelectorAll('#kasus select').forEach(s=>{s.value=S.kasus[s.dataset.i]});
+ document.querySelectorAll('#quiz input').forEach(r=>{const i=+r.name.slice(1);r.checked=S.jwb[i]===+r.value;r.disabled=S.selesai});
+ KS.forEach((k,i)=>{const f=$('kf'+i);f.hidden=!S.cek;if(S.cek){const t=+S.kasus[i]===k[1];f.className='fb '+(t?'ok':'bad');f.textContent=(t?'Tepat! ':'Kurang tepat. Jawaban: '+OPT[k[1]]+'. ')+k[2]}});
+ Q.forEach((q,i)=>{const f=$('qf'+i);f.hidden=!S.selesai;if(S.selesai){const t=S.jwb[i]===q[2];f.className='fb '+(t?'ok':'bad');f.textContent=(t?'Benar. ':'Salah. Jawaban: '+String.fromCharCode(65+q[2])+'. ')+q[3]}});
+ const sk=skor();
+ $('skor').innerHTML=S.selesai?`<div class="q"><div class="score">${sk}<small>/100</small></div><p>${sk>=80?'Sangat baik! Kamu sudah menguasai dasar Ms. Word.':sk>=60?'Baik. Pelajari lagi materi pada soal yang masih salah.':'Perlu belajar lagi. Buka kembali slide materi dengan tombol Sebelumnya.'}</p></div>`:'';
+ $('cekK').disabled=!S.kasus.every(v=>v!=='');
+ $('kirim').disabled=S.selesai||S.jwb.includes(-1);
+ $('next').classList.toggle('off',!OK[S.cur]());
+}
+function hasil(){
+ const b=S.kasus.filter((v,i)=>+v===KS[i][1]).length;
+ $('hasil').innerHTML=`<table><tr><th>Nama</th><td>${esc(S.nama)}</td></tr><tr><th>Kelas</th><td>${esc(S.kelas)}</td></tr><tr><th>Waktu selesai kuis</th><td>${esc(S.tgl)}</td></tr><tr><th>Skor kuis</th><td><b>${skor()}</b> / 100 (${skor()/20} dari 5 soal benar)</td></tr><tr><th>Studi kasus</th><td>${b} dari 4 tepat<br>${KS.map((k,i)=>`${i+1}. ${esc(OPT[S.kasus[i]]||'-')} ${+S.kasus[i]===k[1]?'(tepat)':'(kurang tepat)'}`).join('<br>')}</td></tr><tr><th>Tingkat pemahaman</th><td>${esc(RT[S.rate]||'-')}</td></tr><tr><th>Refleksi</th><td>${esc(S.ref).replace(/\n/g,'<br>')}</td></tr></table>`;
+}
+function go(n){
+ S.cur=n;save();
+ document.querySelectorAll('.slide').forEach((s,i)=>s.classList.toggle('active',i===n));
+ $('bar').style.width=((n+1)/N*100)+'%';$('pg').textContent=`Slide ${n+1} / ${N}`;
+ $('prev').style.visibility=n?'visible':'hidden';$('next').style.visibility=n<N-1?'visible':'hidden';
+ $('msg').textContent='';if(n===7)hasil();sync();scrollTo(0,0);
+}
+$('next').onclick=()=>{OK[S.cur]()?go(S.cur+1):$('msg').textContent='Belum bisa lanjut: '+HINT[S.cur]};
+$('prev').onclick=()=>go(S.cur-1);
+$('home').onclick=()=>go(0);
+$('cekK').onclick=()=>{S.cek=true;save();sync()};
+$('kirim').onclick=()=>{if(S.jwb.includes(-1))return;S.selesai=true;S.tgl=new Date().toLocaleString('id-ID');save();sync();$('msg').textContent=''};
+document.addEventListener('input',e=>{
+ const t=e.target;
+ if(t.id==='nama')S.nama=t.value;else if(t.id==='kelas')S.kelas=t.value;else if(t.id==='ref')S.ref=t.value;
+ else if(t.name==='rate')S.rate=t.value;
+ else if(t.dataset&&t.dataset.i!==undefined){S.kasus[t.dataset.i]=t.value;S.cek=false}
+ else if(t.name&&t.name[0]==='q'&&!S.selesai)S.jwb[+t.name.slice(1)]=+t.value;
+ else return;
+ save();sync();$('msg').textContent='';
+});
+$('prt').onclick=()=>{hasil();print()};
+addEventListener('beforeprint',hasil);
+$('dl').onclick=()=>{
+ const t=`HASIL BELAJAR MS. WORD KELAS XI SMK\n\nNama: ${S.nama}\nKelas: ${S.kelas}\nWaktu: ${S.tgl}\nSkor kuis: ${skor()}/100\n\nStudi kasus:\n${KS.map((k,i)=>`${i+1}. ${OPT[S.kasus[i]]||'-'} ${+S.kasus[i]===k[1]?'(tepat)':'(kurang tepat)'}`).join('\n')}\n\nTingkat pemahaman: ${RT[S.rate]||'-'}\nRefleksi: ${S.ref}\n\n(c) Yoga Fauzi Irawan, S. Kom., Gr.\n`;
+ const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([t],{type:'text/plain;charset=utf-8'}));
+ a.download='hasil-'+(S.nama.trim().replace(/\s+/g,'-')||'siswa')+'.txt';a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000);
+};
+$('rst').onclick=()=>{if(confirm('Hapus semua data yang tersimpan dan mulai dari awal?')){S={...D,kasus:['','','',''],jwb:[-1,-1,-1,-1,-1]};save();go(0)}};
+let c=0;while(c<S.cur&&OK[c]())c++;go(c);
+</script>
+</body>
+</html>
